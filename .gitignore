@@ -1,0 +1,8 @@
+cd D:\smarthouse-main
+@"
+node_modules/
+dist/
+.angular/
+target/
+.idea/
+"@ | Out-File -Encoding ascii .gitignore.env
